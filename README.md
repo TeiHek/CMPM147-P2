@@ -1,6 +1,7 @@
 # Randomly Polaris
 A project using [p5.js](https://p5js.org/) to create a randomly generated scene of the night sky with the North Star. <br/>
 Inspired by [this image](https://www.science.org/do/10.1126/article.27798/abs/sn-northstar.jpg) <br/>
+Check out the project [here!](https://teihek.github.io/CMPM147-P2/)
 
 ## Uses of randomness
 - Position of Polaris: This will likely be different depending where it is being observed from.
