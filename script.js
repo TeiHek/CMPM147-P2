@@ -15,17 +15,15 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 800).mousePressed(() => {
+    // Toggle star trails
+    trail = !trail;
+  });
   createButton("reroll").mousePressed(() => {
     seed++;
     angle = 0;
   });
   angleMode(DEGREES);
-}
-
-// Create mouse input (click)
-function mouseClicked() {
-  trail = !trail;
 }
 
 function draw() {
@@ -127,18 +125,4 @@ function draw() {
   }
   vertex(width, height);
   endShape(CLOSE);
-}
-
-// Parallax Functions created by me while I was in ARTG 80G
-function xParallax(scale){
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
-    return (((-width/2) + mouseX)*scale);
-  }
-  return 0;
-}
-
-function yParallax(scale){
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height)
-    return (((-height/2) + mouseY)*scale);
-  return 0;
 }
