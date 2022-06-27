@@ -20,11 +20,11 @@ I struggled at first, since I knew: <br/>
 - The hills/mountains need to not rotate, but need to be placed below two sets of objects that do rotate. <br/>
 
 To get around this: <br/>
-- The stars are made using arcs with the center at the origin, and the trails are made by manipulating arc length.
-- The moon is created by overlapping two circles.
+- The stars are made using arcs with the centers at a random point, and the trails are made by manipulating arc length.
+- The moon is created by overlapping two circles, and then rotated around a different point
 - To rotate the stars and the moon separately while not rotating the hills/mountains, p5's push and pop are used. <br/>
 
-Overall, I think I achieved what I was looking to accomplish with this project
+Overall, I think I achieved what I was looking to accomplish with this project.
 
 ## p2-simple-scene-starter
 Credit: Adam Smith; Asiiah Song
