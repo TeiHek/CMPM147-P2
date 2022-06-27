@@ -18,10 +18,12 @@ I struggled at first, since I knew: <br/>
 - The stars needed to rotate around a random point, with Polaris being at the center of the point, while being behind hills/mountains.
 - The moon needed to be in front of the stars, but also rotate around a different randomly generated point.
 - The hills/mountains need to not rotate, but need to be placed below two sets of objects that do rotate. <br/>
+
 To get around this: <br/>
 - The stars are made using arcs with the center at the origin, and the trails are made by manipulating arc length.
 - The moon is created by overlapping two circles.
 - To rotate the stars and the moon separately while not rotating the hills/mountains, p5's push and pop are used. <br/>
+
 Overall, I think I achieved what I was looking to accomplish with this project
 
 ## p2-simple-scene-starter
